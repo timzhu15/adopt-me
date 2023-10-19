@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 import AdoptedPetContext from "./AdoptedPetContext";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
@@ -15,7 +15,7 @@ import Details from "./Details";
 import SearchParams from "./SearchParams";
 
 const App = () => {
-  const adoptedPet = useState(null)
+  const adoptedPet = useState(null);
   return (
     <div>
       <BrowserRouter>
